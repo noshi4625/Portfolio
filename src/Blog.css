@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bl{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.bl p{
+    color:rgb(134, 134, 134);
+}
+.bl h5{
+    color:rgb(92, 122, 88);
+}
+
+.bl1{
+    /* width: 80%; */
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./proj1.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.bl2{
+    /* width: 80%; */
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./proj2.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.bl3{
+    /* width: 80%; */
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./proj3.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.bli{
+    height: 350px;
+
+}
+.bli h6{
+    color: rgb(137, 167, 131);
+}
+h4:hover{
+    color:rgb(134, 134, 134);
+}
+
+.bli p{
+    color:rgb(134, 134, 134);
+}

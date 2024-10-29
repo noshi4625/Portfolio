@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.home{
+  height: 550px;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+ .home1{
+  /* width: 90%; */
+  /* margin-bottom: -10px; */
+  height: 500px;
+  background-color: lightcoral;
+  background-image: url(./Home.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+    /* background-clip: content-box; */
+
+}
+.butn1 .btn1 a {
+  font-size: 18px;
+  border: none;
+  
+  /* border: 2px solid rgb(134, 134, 134); */
+  text-decoration: none;
+  color: white;
+
+}
+
+.butn1 .btn2 a {
+  border: none;
+  /* border: 2px solid rgb(134, 134, 134); */
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(134, 134, 134);
+
+}
+ .butn1 .btn1{
+  
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  background-color:rgb(134, 134, 134);
+
+}
+
+ .butn1 .btn2{
+  border-radius: 7px;
+  border: 2px solid rgb(134, 134, 134);
+  padding: 7px 15px;
+  background-color:transparent;
+
+}
+ .butn1 .btn2:hover {
+  background-color:rgb(134, 134, 134);
+}
+ .butn1 .btn2:hover a{
+  color: white;
+
+}
+
+.ca{
+  height: 200px;
+  background-color: rgb(228, 229, 235);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 5px; */
+}
+ .ca1{
+    /* margin: 0px 30px; */
+  height: 100%;
+  /* background-color: burlywood; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ca1 .c1{
+  width: 65px;
+  height: 65px;
+  background-color:rgb(134, 134, 134) ;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+
+}
+  
+.ca1 .c2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ca1 .c2 p{
+  font-size: 18px;
+  color: rgb(134, 134, 134);
+}
+

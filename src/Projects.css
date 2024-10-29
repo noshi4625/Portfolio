@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bl{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.bl p{
+    color:rgb(134, 134, 134);
+}
+.bl h5{
+    color:rgb(134, 134, 134);
+}
+
+.p1{
+    /* width: 80%; */
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro1.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 7px;
+}
+.p2{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro2.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+
+.p3{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro3.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+.p4{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro4.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+.p5{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro5.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+.p6{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro6.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+.p7{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro8.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+.p8{
+    
+   height: 300px;
+   background-color: lightcoral;
+   background-image: url(./pro8.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    border-radius: 7px;
+}
+.p1:hover::before, .p2:hover::before, .p3:hover::before, .p4:hover::before, .p5:hover::before, .p6:hover::before, .p7:hover::before, .p8:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.26); 
+  z-index: 1;
+   border-radius: 7px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
+  position: relative;
+  /* z-index: 2;  */
+}
+  .pa2 {
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    display: none;
+}
+ .p1:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p1:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p2:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p2:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p3:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p3:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p4:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p4:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p5:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p5:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p6:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p6:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p7:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p7:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+.p8:hover .pa2 h4{
+    color:rgb(125, 134, 105) ;
+}
+ .p8:hover .pa2{
+    display: block;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+
+
